@@ -6,13 +6,13 @@ Asignatura: Puesta en Producción Segura
 
 Estado: Finalizado ✅
 
-📋 Descripción de la Actividad
+📋 **Descripción de la Actividad**
 
 Este proyecto implementa una aplicación robusta en Python 3 para detectar palíndromos (frases que se leen igual al derecho y al revés). El objetivo principal no es solo la funcionalidad, sino la implementación de una suite de Testing Unitario (unittest) exhaustiva que garantice la calidad del software ante entradas inesperadas.
 
 La práctica simula un entorno profesional donde el código debe ser modular, organizado y testeable.
 
-🚀 Estructura del Proyecto
+🚀 **Estructura del Proyecto**
 
 nombre_del_proyecto/
 ├── app/
@@ -32,7 +32,7 @@ nombre_del_proyecto/
 └── README.md                # Documentación
 
 
-🛠️ Instalación y Ejecución en Kali Linux
+🛠️ **Instalación y Ejecución en Kali Linux**
 
 Clonar o descargar el proyecto:
 
@@ -53,7 +53,7 @@ python3 app/charfun.py
 
 Deberás ver el mensaje de bienvenida con el nombre del autor: Alejandro Rodriguez.
 
-🧪 Cómo Ejecutar los Tests
+🧪 **Cómo Ejecutar los Tests**
 
 El proyecto incluye pruebas unitarias que cubren:
 
@@ -70,7 +70,7 @@ Para correr las pruebas con detalle (verbosity):
 python3 -m unittest tests/test_modulo1.py -v
 
 
-Ejemplo de salida esperada:
+_Ejemplo de salida esperada:_
 
 test_cadenas_vacias (tests.test_modulo1.TestPalindromo) ... ok
 test_frases_complejas (tests.test_modulo1.TestPalindromo) ... ok
