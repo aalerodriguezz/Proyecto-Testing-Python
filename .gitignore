@@ -1,0 +1,22 @@
+Python cache
+
+pycache/
+*.py[cod]
+*$py.class
+
+Entornos virtuales
+
+venv/
+env/
+.env
+
+Distribución
+
+dist/
+build/
+*.egg-info/
+
+Logs y SO
+
+*.log
+.DS_Store

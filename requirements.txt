@@ -1,0 +1,7 @@
+unittest
+
+unicodedata es parte de la librería estándar de Python, no se instala con pip.
+
+Sin embargo, para entornos de CI/CD a veces se incluyen herramientas de linting.
+
+Por ahora, lo dejamos limpio.
