@@ -36,8 +36,7 @@ nombre_del_proyecto/
 
 Clonar o descargar el proyecto:
 
-git clone [https://github.com/tu-usuario/nombre-repo.git](https://github.com/tu-usuario/nombre-repo.git)
-cd nombre-repo
+git clone https://github.com/aalerodriguezz/Proyecto-Testing-Python.git
 
 
 Crear entorno virtual (Recomendado):

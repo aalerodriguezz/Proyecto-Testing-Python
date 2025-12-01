@@ -19,7 +19,6 @@ def esPalindromo(cadena):
     cadena_normalizada = unicodedata.normalize('NFD', cadena)
     
     # 5. Filtrado: Solo letras y números, y todo a minúsculas
-    # unicodedata.category(c) != 'Mn' elimina las marcas de acentos
     limpia = ''.join(
         c.lower() for c in cadena_normalizada
         if unicodedata.category(c) != 'Mn' and c.isalnum()
